@@ -1,0 +1,26 @@
+[
+  {
+    "employeeId": 1,
+    "name": "John Doe",
+    "emailId": "john.doe@capsilon.com",
+    "dateOfBirth": "1992-02-25T18:41:17Z",
+    "dateOfJoining": "2016-02-01T18:41:17Z",
+    "designation": "Senior Software Engineer",
+    "salary": 54321,
+    "reportingManagerId": 1,
+    "capsilonPortalRole": "ADMIN",
+    "status": "ACTIVE"
+  },
+  {
+    "employeeId": 2,
+    "name": "Jane Doe",
+    "emailId": "jane.doe@capsilon.com",
+    "dateOfBirth": "1992-07-13T18:41:17Z",
+    "dateOfJoining": "2018-06-01T18:41:17Z",
+    "designation": "HR Manager",
+    "salary": 12345,
+    "reportingManagerId": 1,
+    "capsilonPortalRole": "HR",
+    "status": "ACTIVE"
+  }
+]

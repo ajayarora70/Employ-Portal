@@ -1,0 +1,21 @@
+# Spring Boot configuration
+spring:
+  profiles:
+    active: development
+# Database
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: capsilon_employee_portal
+# Logging
+logging:
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+  level:
+    com.capsilon: DEBUG
+    org.springframework: INFO
+    org.mongodb: DEBUG
+# Server configuration
+server:
+  port: 80

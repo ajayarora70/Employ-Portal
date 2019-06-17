@@ -19,3 +19,5 @@ logging:
 # Server configuration
 server:
   port: 80
+  servlet:
+    context-path: /capsilon-employee-portal

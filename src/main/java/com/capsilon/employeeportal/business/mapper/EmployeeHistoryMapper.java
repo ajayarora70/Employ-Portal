@@ -35,6 +35,31 @@ public class EmployeeHistoryMapper
 		employee.setCreatedDateTime(dbEmployee.getCreatedDateTime());
 		employee.setUpdatedBy(dbEmployee.getUpdatedBy());
 		employee.setUpdatedDateTime(dbEmployee.getUpdatedDateTime());
+		
+		
+		employee.setHighestDegree(dbEmployee.getHighestDegree());
+		employee.setSpecialization(dbEmployee.getSpecialization());
+		employee.setYearOfCompletion(dbEmployee.getYearOfCompletion());
+		employee.setMonthOfExprience(dbEmployee.getMonthOfExprience());
+		
+		employee.setHaveValidPassport(dbEmployee.isHavepassport());
+		employee.setPassportNumber(dbEmployee.getPassportNumber());
+		employee.setDateOfExpiry(dbEmployee.getDateOfExpiry());
+		employee.setHaveValidVisa(dbEmployee.getHaveValidVisa());
+		employee.setVisaNumber(dbEmployee.getVisaNumber());
+		employee.setDateOfExpiryOfVisa(dbEmployee.getDateOfExpiryOfVisa());
+		
+		employee.setDepartment(dbEmployee.getDepartment());
+		
+		employee.setNameOfPrimaryContact(dbEmployee.getNameOfPrimaryContact());
+		employee.setRelationshipWithPrimaryContact(dbEmployee.getRelationshipWithPrimaryContact());
+		employee.setAddressOfPrimaryContact(dbEmployee.getAddressOfPrimaryContact());
+		employee.setContactNumberOfPrimaryContact(dbEmployee.getContactNumberOfPrimaryContact());
+		employee.setNameOfSecondaryContact(dbEmployee.getNameOfSecondaryContact());
+		employee.setRelationshipWithSecondaryContact(dbEmployee.getRelationshipWithSecondaryContact());
+		employee.setAddressOfSecondaryContact(dbEmployee.getAddressOfSecondaryContact());
+		employee.setContactNumberOfSecondaryContact(dbEmployee.getContactNumberOfSecondaryContact());
+		
 		return employee;
 	}
 
